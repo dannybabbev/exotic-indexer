@@ -7,7 +7,7 @@ A fast ordinals and exotic sats indexer written in Go
 - Public api root: https://api.bitgem.tech
 - [Official Website](https://bitgem.tech/)
 
-## Requirments
+## Requirements
 - Bitcoind node
 - [Esplora](https://github.com/Blockstream/esplora) backend (optional, only if you need address index)
 
