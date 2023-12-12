@@ -37,7 +37,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: pokerdan1/ord-api
+        images: lebonchasseur/exotic-indexer
         # generate Docker tags based on the following events/attributes
         tags: |
             type=schedule
