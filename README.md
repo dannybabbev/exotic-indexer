@@ -41,6 +41,8 @@ docker run -d --name exotic-indexer \
     -e ESPLORA_URL=https://blockstream.info/testnet/api/ \
     lebonchasseur/exotic-indexer:master
 ```
+### Build your own docker image
+You can also build your own docker image `docker build -t exotic-indexer .` and run it with the same command as above.
 
 ## Community and support
 - [Discord](https://discord.gg/STgzjMnkhT)
