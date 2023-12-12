@@ -1,3 +1,3 @@
-# ord-api
+# 🌴 Exotic Sat Indexer 
 
-A fast ordinals indexer written in Go
+A fast ordinals and exotic sats indexer written in Go
