@@ -1,6 +1,6 @@
 # 🌴 Exotic Sat Indexer 
 
-A fast ordinals and exotic sats indexer written in Go
+A fast ordinals and exotic sats indexer written in Go. The indexer exposes a REST API which you can use to build sat hunting tools, ordinals wallets and other ordinals services.
 
 ## API Docs
 - Docs: https://docs.bitgem.tech/
