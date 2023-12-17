@@ -11,6 +11,11 @@ A fast ordinals and exotic sats indexer written in Go. The indexer exposes a RES
 - Bitcoind node
 - [Esplora](https://github.com/Blockstream/esplora) backend (optional, only if you need address index)
 
+### Minimum System Requirements:
+- 32 GB RAM
+- 8 Core CPU
+- ~250 GB SSD for the indexer db (Dec 2023)
+
 ## Run with docker
 1. Make sure that bitcoind is running and synced. Bitcoind should be available at `http://bitcoind:8332` or `http://localhost:8332`
 2. Set up directory for the indexer db
