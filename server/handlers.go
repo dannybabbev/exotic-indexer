@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dannybabbev/ord-api/exotic"
+	"github.com/bitgemtech/ord-api/exotic"
 	badger "github.com/dgraph-io/badger/v4"
 	"github.com/gin-gonic/gin"
 )

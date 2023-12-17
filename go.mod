@@ -1,4 +1,4 @@
-module github.com/dannybabbev/ord-api
+module github.com/bitgemtech/ord-api
 
 go 1.21.1
 

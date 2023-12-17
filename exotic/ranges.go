@@ -1,6 +1,6 @@
 package exotic
 
-import "github.com/dannybabbev/ord-api/ordinals"
+import "github.com/bitgemtech/ord-api/ordinals"
 
 type ExoticRange struct {
 	Range      *ordinals.Range `json:"range"`

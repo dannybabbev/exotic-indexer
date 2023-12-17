@@ -1,6 +1,6 @@
 package exotic
 
-import "github.com/dannybabbev/ord-api/ordinals"
+import "github.com/bitgemtech/ord-api/ordinals"
 
 const DificultyAdjustmentInterval = 2016
 const HalvingInterval = 210000

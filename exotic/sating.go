@@ -1,6 +1,6 @@
 package exotic
 
-import "github.com/dannybabbev/ord-api/ordinals"
+import "github.com/bitgemtech/ord-api/ordinals"
 
 // SatingRange is a range of sats as defined by sating.io
 type SatingRange struct {

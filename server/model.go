@@ -3,9 +3,9 @@ package server
 import (
 	"fmt"
 
-	"github.com/dannybabbev/ord-api/esplora"
-	"github.com/dannybabbev/ord-api/exotic"
-	"github.com/dannybabbev/ord-api/ordinals"
+	"github.com/bitgemtech/ord-api/esplora"
+	"github.com/bitgemtech/ord-api/exotic"
+	"github.com/bitgemtech/ord-api/ordinals"
 	log "github.com/sirupsen/logrus"
 )
 
