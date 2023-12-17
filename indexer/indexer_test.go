@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/bitgemtech/ord-api/ordinals"
+	"github.com/bitgemtech/exotic-indexer/ordinals"
 	badger "github.com/dgraph-io/badger/v4"
 	"github.com/stretchr/testify/assert"
 )

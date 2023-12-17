@@ -3,7 +3,7 @@ package indexer
 import (
 	"encoding/hex"
 
-	"github.com/bitgemtech/ord-api/ordinals"
+	"github.com/bitgemtech/exotic-indexer/ordinals"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/txscript"

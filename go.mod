@@ -1,4 +1,4 @@
-module github.com/bitgemtech/ord-api
+module github.com/bitgemtech/exotic-indexer
 
 go 1.21.1
 

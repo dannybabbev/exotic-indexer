@@ -14,16 +14,16 @@ RUN go mod download
 COPY . .
 
 # Build the Go app
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o ord-api .
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o exotic-indexer .
 
 # Start a new stage from scratch
 FROM alpine:latest
 
 # Copy the Pre-built binary file from the previous stage
-COPY --from=builder /app/ord-api .
+COPY --from=builder /app/exotic-indexer .
 
 # Expose port 8080 to the outside world
 EXPOSE 8080
 
 # Command to run the executable
-CMD ["./ord-api"]
+CMD ["./exotic-indexer"]

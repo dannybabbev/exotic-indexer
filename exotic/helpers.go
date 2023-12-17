@@ -3,7 +3,7 @@ package exotic
 import (
 	"encoding/json"
 
-	"github.com/bitgemtech/ord-api/ordinals"
+	"github.com/bitgemtech/exotic-indexer/ordinals"
 )
 
 type Item struct {

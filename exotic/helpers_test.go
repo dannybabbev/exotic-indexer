@@ -3,7 +3,7 @@ package exotic
 import (
 	"testing"
 
-	"github.com/bitgemtech/ord-api/ordinals"
+	"github.com/bitgemtech/exotic-indexer/ordinals"
 	"github.com/stretchr/testify/assert"
 )
 

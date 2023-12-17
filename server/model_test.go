@@ -3,9 +3,9 @@ package server
 import (
 	"testing"
 
-	"github.com/bitgemtech/ord-api/esplora"
-	"github.com/bitgemtech/ord-api/exotic"
-	"github.com/bitgemtech/ord-api/ordinals"
+	"github.com/bitgemtech/exotic-indexer/esplora"
+	"github.com/bitgemtech/exotic-indexer/exotic"
+	"github.com/bitgemtech/exotic-indexer/ordinals"
 	"github.com/stretchr/testify/assert"
 )
 

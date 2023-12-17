@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bitgemtech/ord-api/ordinals"
+	"github.com/bitgemtech/exotic-indexer/ordinals"
 	badger "github.com/dgraph-io/badger/v4"
 	log "github.com/sirupsen/logrus"
 )
