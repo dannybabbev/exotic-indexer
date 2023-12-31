@@ -49,6 +49,13 @@ docker run -d --name exotic-indexer \
 ### Build your own docker image
 You can also build your own docker image `docker build -t exotic-indexer .` and run it with the same command as above.
 
+## Develop
+1. Rename `env` to `.env` and substitute the values for your system
+2. Run `docker compose up` in the local directory to bring up the testnet instance of bitcoind
+   - the `bitcoind` container is configured to use `arm64v8` by default for Apple sillicon support. Adjust this for your system.
+3. `go get -v`
+4. Run and debug with VS Code or the editor of your choice
+
 ## Community and support
 - [Discord](https://discord.gg/STgzjMnkhT)
 - [Official Website](https://bitgem.tech/)
