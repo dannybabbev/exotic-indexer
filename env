@@ -1,0 +1,6 @@
+BITCOIN_RPC_HOST=localhost
+BITCOIN_RPC_PORT=8332
+DATA_DIR=/User/{your-user}/.ord-indxer
+BITCOIND_DIR=/User/{ypur-user}/.bitcoin/testnet3
+ESPLORA_URL=https://blockstream.info/api/
+LOG_LEVEL=trace
