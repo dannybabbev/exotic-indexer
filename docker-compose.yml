@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  bitcoin:
+    container_name: bitcoind
+    user: 0:0
+    image: index.docker.io/lncm/bitcoind:v25.1-arm64v8
+    volumes:
+      - ~/.bitcoin:/data/.bitcoin
+    restart: on-failure
+    stop_grace_period: 15m30s
+    command: [ 
+      "-datadir=/data/.bitcoin", 
+      "-testnet=1",
+      "-server=1",
+      "-rpcallowip=0.0.0.0/0",
+      "-rpcbind=0.0.0.0",
+      "-rpcport=8332",
+      "-zmqpubrawtx=tcp://0.0.0.0:28332",
+      "-zmqpubrawblock=tcp://0.0.0.0:28332",
+      "-zmqpubhashblock=tcp://0.0.0.0:28332",
+      "-zmqpubhashtx=tcp://0.0.0.0:28332",
+      ]
+    ports:
+      - "8333:8333"
+      - "8332:8332"
+      - "28332:28332"
+      - "28333:28333"
