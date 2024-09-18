@@ -4,8 +4,6 @@ A fast ordinals and exotic sats indexer written in Go. The indexer exposes a RES
 
 ## API Docs
 - Docs: https://docs.bitgem.tech/
-- Public api root: https://api.bitgem.tech
-- [Official Website](https://bitgem.tech/)
 
 ## Requirements
 - Bitcoind node
@@ -58,4 +56,3 @@ You can also build your own docker image `docker build -t exotic-indexer .` and 
 
 ## Community and support
 - [Discord](https://discord.gg/STgzjMnkhT)
-- [Official Website](https://bitgem.tech/)
