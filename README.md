@@ -53,6 +53,3 @@ You can also build your own docker image `docker build -t exotic-indexer .` and 
    - the `bitcoind` container is configured to use `arm64v8` by default for Apple sillicon support. Adjust this for your system.
 3. `go get -v`
 4. Run and debug with VS Code or the editor of your choice
-
-## Community and support
-- [Discord](https://discord.gg/STgzjMnkhT)
